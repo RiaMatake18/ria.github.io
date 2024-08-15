@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding:0%;
+    
+
+}
+
+header{
+    background-color:black;
+    color: white;
+    box-sizing: border-box;
+
+
+}
+.headsocial{
+    margin-left: 91%;
+    position: absolute;
+    top:3%;
+    display:grid;
+    grid-template-columns: 20px 20px 20px;
+    gap: 3%;
+    
+}
+.headsocial a i{
+    margin: 4px;
+}
+
+header h1{
+    padding: 1% 5%;
+
+}
+
+
+.nav {
+    text-decoration: none;
+    list-style:none;
+    font-family: cursive;
+    padding:15px;
+    color: white;
+}
+header nav{
+    text-align: center;
+    
+}
+
+
+header nav  .nav:hover{
+    background-color: blueviolet;
+    border-radius:6px;
+
+}
+
+
+
+
+.poem{
+
+      padding: 1%;
+      margin: 10%;
+       display: grid;
+       grid-template-columns: 50% 50%;
+       color: black;
+       background-color: white;
+       font-family: "Gill Sans", sans-serif;
+       
+}
+div #poem{
+    margin-right: 30%;
+    margin-top: 18%;
+}
+
+
+#imgpoem{
+    margin:13% 0% 0% 35%;
+    width:60%;
+    height: auto;
+    
+    border-radius:6%;
+    
+
+}
+#more{
+  
+    color: black;
+    margin-bottom:7%;
+    margin-left:2%;
+    padding:0% 3%;
+    text-decoration: underline;
+    text-decoration: blue;
+}
+div #more:hover{
+    
+    border-radius:4%;
+    text-decoration: overline;
+
+
+}
+div #poem p{
+    margin: 5% 0%;
+}
+
+
+.Aboutme{
+    
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0% 0%;
+    display: flex;
+   
+
+   
+    font-family: "Gill Sans", sans-serif;
+    
+    
+}
+#h3 {
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+.grid{ 
+     display: grid;
+     grid-template-columns: 70%;
+     margin: 0%;
+     padding: 0%;
+      
+}
+.grid h3{
+    text-align: center;
+    margin: 35%;
+    font-size: 160%;
+}
+.grid p{
+     margin-left: 15%;
+     margin-bottom: 70%;
+   
+     
+     font-size: 120%;
+     
+}
+
+#imgabout{
+    width: 50%;
+    height: 50%;
+}
+
+
+body{
+    overflow-x: hidden;
+    background-color: wheat;
+    
+}
+
+
+
+#btnabout a{
+    color: black;
+    color: white;
+    
+    
+}
+
+   
+
+h4{
+    padding:9% 0%;
+    color: white;
+    background: url('TXM0.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size:250%;
+    
+    
+}
+.row {
+   
+   display:flex;
+   -ms-flex-align: center;
+   margin:0%;
+  
+   
+}
+
+.column{
+    padding:0% 0%;
+    margin:0%;
+
+}
+.Artwork{
+    background: black;
+    padding: 0%;
+    margin: 0%;
+}
+.social{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.social a{
+    margin:0px 5px;
+    
+}
+
+footer nav {
+    
+    text-align: center;
+}
+
+
+footer .nav {
+    text-decoration: none;
+    list-style:none;
+    font-family: cursive;
+    padding:0px;
+    margin: 2%;
+    color: white;
+}
+footer nav{
+    text-align: center;
+    font-size: 100%;
+    padding-bottom: 5%;
+}
+
+
+footer nav a:hover{
+    color: blueviolet;
+    
+
+}
+
+.social .fa-facebook:hover{
+    background-color: blue;
+    padding: 2px;
+    border-radius: 2px;
+    width:40px;
+}
+.social .fa-instagram:hover{
+    background-color: #c13584;
+    padding: 4px;
+    border-radius: 2px;
+    width:40px;
+}
+.social .fa-youtube:hover{
+    background-color:red;
+    padding: 4px;
+    border-radius: 2px;
+    width:40px;
+}
